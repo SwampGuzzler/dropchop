@@ -1,3 +1,23 @@
+### 0.2.2
+
+* Upgrade to turf.js v3.0 (specifically 3.0.14)
+* Update `CONTRIBUTING.md` to reflect new `src/js` structure
+
+### 0.2.1
+
+* Create `window.onbeforeunload` to prevent from navigating away from the page. This isn't a "smart" unload function, in that it does not look for "changes" or "saves".
+* Upated README
+
+### 0.2.0
+
+* FEATURE: custom Mapbox basemap https://github.com/cugos/dropchop/pull/259
+
+### 0.1.2
+
+* BUG: Toggle all layers checkbox was working opposite to expectations. Fixed in https://github.com/cugos/dropchop/pull/256
+* update path to topojson client library https://github.com/cugos/dropchop/pull/256
+* Remove `mapbox.js` bundle in this repo and link straight to CDN in `index.html` as well as Karma configuration file
+
 ### 0.1.1
 
 * FEATURE: Upload shapefiles! (via [@jczaplew](https://github.com/jczaplew))
